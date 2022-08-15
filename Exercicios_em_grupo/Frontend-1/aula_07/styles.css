@@ -1,0 +1,21 @@
+body {
+background-color: #a9d1ff;
+
+}
+.titulo-principal {
+
+    color: #034a6b;
+}
+
+.job-title {
+    background-color: #034a6b;
+    color: white;
+}
+
+.sub-title {
+    color: #034a6b;
+}
+
+.list {
+    background-color: rgb(99, 99, 99);
+}
