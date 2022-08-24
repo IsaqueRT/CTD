@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+ box-sizing: border-box;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 400;
+}
+
+.texto-cabeçalho {
+    background-color: #1CD1B0;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.titulo-principal {
+    background-color: #00669F;
+    padding: 28px;
+    font-size: 40px;
+    font-weight: 400;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+
+.card-wolverine {
+    display: inline-block;
+    background-color: #F3F3F3;
+    width: 350px;
+    
+    position: relative;
+    top: 50px;
+    left: 400px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+
+
+}
+
+.card-wolverine .image-background-wolverine {
+    width: 350px;
+
+}
+
+.card-wolverine .image-perfil-wolverine {
+    width: 120px;
+    height: 120px;
+    margin: -60px 150px 0px 120px; 
+    border-radius: 50%;   
+    object-fit: cover;
+}
+
+.card-wolverine .icon {
+    width: 40px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.titulo-card-wolverine {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.texto-card-wolverine {
+
+      font-size: 16px;
+      font-weight: 400;
+      padding-top: 20px;
+      text-align: center;
+      padding: 20px;
+}
+
+.botão-wolverine {
+    margin: 10px 0px 50px 110px;
+    padding: 16px 41.76px 16px 41.76px;
+    background-color: #00669F;
+    color: white;
+    border:none;
+    
+}
+
+.card-deadpool {
+    background-color: #F3F3F3;
+    width: 350px;
+    height: 597px;
+    position: relative ;
+    left: 1100px;
+    top: -555px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.image-background-deadpool {
+    width: 350px;
+    height: 225px;
+}
+
+.image-perfil-deadpool {
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;   
+    object-fit: cover;
+    margin: -60px 150px 0px 120px;
+
+}
+
+.card-deadpool .icon {
+
+    width: 40px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.titulo-card-deadpool {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.texto-card-deadpool {
+
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.botão-deadpool {
+
+    margin: 10px 0px 50px 110px;
+    padding: 16px 41.76px 16px 41.76px;
+    background-color: #00669F;
+    color: white;
+    border:none;
+    
+}
+
+.texto-rodapé {
+    background-color: #00669F ;
+    color: white;
+    padding: 16px 0px 16px 28px;
+    position: absolute;
+   width: 100%;
+   top: 880px
+}
