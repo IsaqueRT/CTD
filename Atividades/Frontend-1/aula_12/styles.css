@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+ box-sizing: border-box;
+ font-family: 'Roboto', sans-serif;
+ }
+ 
+ 
+
+
+.faixa-preta {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 62px;
+    height: 20px;
+}
+
+.faixa-preta .paragrafo-descontos {
+
+   color: #ffffff;  
+   font-size: 10px;
+   font-weight: 400;
+}
+
+.configurações {
+
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+}
+.configurações a {
+
+   color: #ffffff;
+   font-size: 10px;
+   font-weight: 400;
+}
+.configurações li {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cabeçalho {
+
+    background-color: #F0A83E;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+
+.frontedog img {
+
+    width: 14.71px;
+    height: 13.17px;
+   margin: 7px 0px;
+}
+
+.cabeçalho .frontedog {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 40px;
+    
+}
+
+.frontedog .front {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.frontedog .catedog {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.navegador img {
+
+   filter: invert(1);
+
+}
+
+
+
+.navegador {
+    
+    margin: 0px 40px;
+    
+    
+}
+
+.navegador a {
+
+    color: #ffffff;
+    font-size: 15px;
+    margin: 0px 10px;
+    
+   
+}
+
+.banner {
+    height: 750px;
+    background-image:url(./banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.banner .conteudo-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 250px;
+    
+    padding-left: 1000px;
+
+}
+
+.banner h1 {
+     background-color: #ffffff;
+     color: #3C2313;
+     padding: 10px 50px;
+     font-size: 50px;
+     font-weight: 400;
+     border-radius: 10px;
+}
+
+.banner h2 {
+
+    font-weight: 400;
+    color: #3C2313;
+    font-size: 25px;
+
+}
+
+.banner button {
+    font-weight: 400;
+    background-color: #F0A83E;
+    padding: 20px 25px;
+    color: #ffffff;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.categorias {
+  text-align: center;
+
+}
+
+.categorias img {
+    width: 175px;
+    height: 175px;
+    margin: 50px 0px 15px 0px;
+}
+
+.categorias h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #3C2313;
+    margin-bottom: 15px;
+}
+
+.categorias a {
+
+    font-size: 20px;
+    font-weight: 400;
+    color:#666666;
+    margin: 10px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 75px;
+    
+}
+
+.section3 h1 {
+    font-weight: 500;
+    color: #3C2313;
+    font-size: 20px;
+}
+
+.section3 h2 {
+    font-weight: 500;
+    color: #F0A83E;
+    font-size: 20px;
+}
+
+.section3 .produto1 {
+  background-color: #FBFAF6;
+  text-align: center;
+ 
+}
+
+
+.section3 .produto2 {
+ background-color: #FBFAF6;
+ text-align: center;
+ 
+
+}
+
+
+.section3 .produto3 {
+
+ background-color: #FBFAF6;
+ text-align: center;
+ 
+}
+
+    
