@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    
+       <header class="cabeçalho">
+        <p>20% de desconto em todos os produtos</p>
+
+        <h1>
+            Nome da loja
+        </h1>
+
+        <nav>
+            <a>Contato</a>
+            <a>Registrar-se</a>
+            <a>Login</a>
+        </nav>
+       </header>
+
+       <main>
+
+            <form class="conteiner">
+                <h1>Adicionar seu super-herói</h1>
+               
+              <fieldset class="formulario">
+                <legend class="legend1">Adicione seu personagem favorito completando as informações</legend>
+
+                <div class="formulario-div">
+                    
+
+                    <div class="controlador">
+                          <label for="nome">Nome</label>
+                          <input type="text" id="nome"  class="input">
+     
+                    
+                    </div>
+                
+     
+                    <div class="controlador">
+     
+                         <label for="data">Data De Nascimento</label>
+                         <input type="date" id="data"  class="input">
+         
+     
+                    </div>
+     
+                     <div class="controlador">
+                       
+                     <textarea  id="descrição" cols="30" rows="10">descrição</textarea>
+                     </div>
+     
+                    </div>
+     
+                    <div class="formulario-div">
+                      <div class="controlador">
+                        <label for="especie">especie</label>
+                          <select name="" id="especie" >
+                            <option value="">especie</option>
+                          <option value="1">teste1</option>
+                          <option value="2">teste2</option>
+                        </select>
+                      </div>
+
+                      <div class="controlador">
+                        <label for="file">adicionar uma foto</label>
+                        <input type="file" id="file"  >
+                      </div>   
+
+                      <fieldset class="checkbox">
+                        <legend>poderes</legend>
+                      <div class="div1">
+                       
+                           <input type="checkbox" name="" id="voar">
+                           <label for="voar">voar</label>
+                      </div>
+
+                      <div>
+                        <input type="checkbox" name="" id="superinteligencia">
+                        <label for="superinteligencia">super inteligência</label>
+                      </div>
+                           
+                      <div>
+                         <input type="checkbox" name="" id="visaoderaiolaser">
+                         <label for="visaoderaiolaser">visão de raio laser</label>
+                      </div>
+                           
+                      <div >
+                        <input type="checkbox" name="" id="superrico">
+                        <label for="superrico">super rico</label>
+
+                      </div>
+
+                      <div class="linha"></div>
+                      
+                     <fieldset class="radio">
+                    <div>
+                      <legend>Tipo de personagem</legend>
+                    </div>
+                      <div>
+                        <input type="radio" id="heroi" name="tipodepersonagem">
+                        <label for="heroi">Herói / Heroína</label>
+                      </div> 
+                      
+                      <div >
+                        <input type="radio" id="vilao" name="tipodepersonagem" >
+                        <label for="vilao">Vilão / Vilã</label>
+                      </div>
+                    </fieldset>
+
+                    </fieldset>
+
+                    </div>
+
+                   </fieldset>
+               <div class="button">
+              <button>Adicionar</button>
+            </div>
+            </form>
+         
+       </main>
+
+       <footer>
+        <p>Todos os direitos reservados a FRONT END 1</p>
+       </footer>
+    
+</body>
+</html>

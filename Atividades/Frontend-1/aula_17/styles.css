@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&family=Roboto+Mono:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.cabeçalho p {
+    background-color: #1CD1B0;
+    padding: 10px;
+}
+
+.cabeçalho h1 {
+    background-color: #00669F;
+    padding: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.cabeçalho nav {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    background-color: #001D2D;
+    padding: 5px;
+    
+}
+
+.cabeçalho a {
+    color: white;
+    font-size: 13px;
+}
+
+main {
+    
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+   padding-top: 50px;
+
+}
+
+
+.conteiner {
+    height: fit-content;
+    background-color: #00669F;
+    color: white;
+    width: 620px;
+    height: 700px;
+    padding: 50px;
+    border-radius: 20px;
+   
+    
+}
+
+
+
+fieldset {
+    border: none;
+}
+
+.conteiner h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+    
+    
+}
+
+.legend1 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.formulario {
+ 
+    display: flex;
+    gap: 20px;
+    
+}
+
+.formulario-div .controlador {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.formulario .formulario-div {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.input-data {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+   
+    
+}
+
+textarea {
+    height: 220px;
+    border: none;
+    border-radius: 10px ;
+    padding: 10px;
+}
+
+.formulario-div .data {
+    display: flex;
+    flex-direction: row;
+}
+
+select {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+   
+}
+
+.checkbox .div1 {
+
+   margin-top: 10px;
+
+}
+
+.checkbox .linha {
+    border-bottom: 0.4px solid white;
+    margin-top: 10px;
+   
+}
+
+.radio {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+}
+
+
+.button {
+  
+   display: flex;
+   justify-content: center;
+   margin: 20px;
+  
+   
+
+ }
+
+ .button button {
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #1CD1B0;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 0.5s;
+
+ }
+
+ .button button:hover {
+    background-color: #0e9b81;
+    transform: scale(1.02);
+ }
+
+ footer {
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    
+ }
