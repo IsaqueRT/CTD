@@ -1,0 +1,351 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&family=Roboto+Mono:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+
+* { 
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+
+
+}
+
+body {
+    background-color: #e4e4e4;
+}
+
+.cabeçalho {
+
+    background-color: #222222;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+
+ .cabeçalho-div-1 {
+   
+    display: flex;
+    gap: 20px;
+    
+}
+
+.cabeçalho-div-1 .imagem-logo {
+
+    width: 50px;
+}
+
+.cabeçalho-div-1 .titulo-logo {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.cabeçalho-div-1 .titulo-logo .game {
+
+    font-weight: 700;
+    color: white;
+    font-size: 25px;
+}
+
+.cabeçalho-div-1 .titulo-logo .shop {
+
+    font-size: 25px;
+    font-weight: 700;
+    color: red;
+}
+
+
+.cabeçalho-div-2 {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.cabeçalho-div-2 a {
+   text-decoration: none;
+   color: white;
+}
+
+.banner {
+  width: 100%;
+  height: 700px;
+  background-image: url(./imagem-banner.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.banner .titulo-banner {
+    display: flex;
+    list-style: none; 
+    gap: 10px; 
+}
+
+.banner .titulo-banner .porcentagem {
+
+    font-weight: 700;
+    color: red;
+    font-size: 50px;
+
+}
+
+.banner .titulo-banner .desconto {
+    font-weight: 700;
+    color: white;
+    font-size: 50px;
+
+}
+
+.button-banner {
+    background-color: #D01418;
+   padding: 15px 65px 15px 65px;
+   color: white;
+   font-size: 25px;
+   border-radius: 7px;
+   border: none;
+   transition: 0.5s;
+}
+
+.button-banner:hover {
+    transform: scale(1.05);
+}
+
+.sessao-jogos {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   gap: 30px;
+   margin-top: 50px;
+
+}
+
+.sessao-jogos .titulo-jogos {
+
+   font-size: 50px;
+   font-weight: 400;
+}
+
+.sessao-jogos .jogos {
+ 
+    display: flex;
+    gap: 40px;
+    
+
+}
+
+
+
+
+.sessao-jogos .jogos .card {
+    width: 315px;
+    height: 350px;
+    
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    transition: 0.5s;
+    
+   
+    
+
+}
+
+.sessao-jogos .jogos .card:hover {
+
+    transform: scale(1.02);
+}
+
+.sessao-jogos .jogos .card .linha {
+    padding: 20px;
+    border-top: 0.1px solid rgba(0, 0, 0, 0.253);
+}
+
+.sessao-jogos .jogos .card img {
+    width: 159px;
+    height: 193px;
+    margin: 30px auto;
+}
+
+
+.sessao-jogos .jogos .card h1 {
+
+    font-weight: 400;
+    font-size: 25px;
+    
+}
+
+.sessao-jogos .jogos .card h2 {
+
+    font-weight: 400;
+    font-size: 16px;
+    
+
+}
+
+.sessao-jogos .jogos .card h3 {
+
+
+    font-weight: 400;
+    font-size: 13px;
+    
+    color: #619D00;
+    
+} 
+
+.sessao-produtos-estrelas   {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+
+
+}
+
+.sessao-produtos-estrelas  .titulo-produtos-estrelas {
+
+   font-size: 50px;
+   font-weight: 400;
+}
+
+
+.produtos-estrelas {
+    display: flex;
+    gap: 50px;
+}
+
+.produtos-estrelas div {
+    transition: 0.5s;
+}
+
+.produtos-estrelas div:hover {
+    transform: scale(1.02);
+}
+
+.produtos-estrelas .cadeiras {
+   background-image: url(./banner-cadeiras.svg);
+   width: 360px;
+   height: 135px;
+   display: flex ;
+   justify-content: center;
+   align-items: center;
+   border-radius: 7px;
+   color: white;
+   
+}
+
+.produtos-estrelas .computadores {
+    background-image: url(./banner-computadores.svg);
+    width: 360px;
+    height: 135px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    color: white;
+    
+
+}
+
+.produtos-estrelas h1 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.rodapé {
+    background-color: #222222;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.rodapé .imagem-logo {
+    width: 50px;
+    height: 50px;
+}
+
+
+.rodapé .redes-sociais {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+
+}
+
+.rodapé .redes-sociais h1 {
+
+    color: white;
+    font-weight: 400;
+}
+
+
+.rodapé .redes-sociais .logos {
+    display: flex;
+    gap: 40px;
+
+}
+
+
+.rodapé .redes-sociais .logos img {
+   transition: 0.5s;
+}
+
+.rodapé .redes-sociais .logos img:hover {
+
+ transform: scale(1.5);
+
+}
+
+
+@media (max-width: 1100px) {
+    .jogos { flex-direction: column;}
+
+}
+
+
+@media (max-width: 1000px) {
+    .titulo-banner li {font-size: 30px !important ;}
+}
+
+
+@media (max-width: 850px)  {
+    .produtos-estrelas {flex-direction: column;}
+}
+
+@media (max-width: 700px)  {
+
+    .cabeçalho {flex-direction: column; gap: 30px;}
+    .titulo-banner li {font-size: 25px !important ;}
+}
+
+@media (max-width: 550px) {
+    .cabeçalho-div-2 {flex-direction: column;}
+    .titulo-banner {flex-direction: column; align-items: center; }
+   .banner .titulo-banner .porcentagem {font-size: 60px !important; }
+   .cabeçalho-div-2 img {display: none;}
+}
+ 
+@media (max-width: 500px) {
+    .banner .titulo-banner .desconto {font-size: 20px !important;}
+    .banner .titulo-banner .porcentagem {font-size: 50px !important; }
+    .rodapé {flex-direction: column;}
+}
